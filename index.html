@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="header">
+          <div class="container">
+              <nav>
+                  <img src="images/prince.avif" class="logo">
+                  <ul id="sidemenu">
+                      <li><a href="#header">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#services">Services</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact Me</a></li>
+                      <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fas fa-bars" onclick="openmenu()"></i>
+              </nav>
+              <div class="header-text">
+                  <p>Fullstack Developer</p>
+                  <h1>Hi, I'm <span>Prince</span><br> Ug from Nigeria.</h1>
+              </div>
+          </div>
+
+          <!--about-->
+          <div id="about">
+              <div class="container">
+                  <div class="row">
+                      <div class="about-col-1">
+                          <img src="images/IMG_0061.JPG">
+                      </div>
+                      <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <P>I'm a fullstack developer with good knowledge of C#, Asp dotnet and angular.
+                        I'm also conversant with Microsoft SQLServer, Git and have a good knowledge about Javascript.
+                        I've worked with a team of proffessionals in building a product(Settlementbank app)for a reputable
+                        organization as a backend engineer. Designed a food delivery web page using Angular, Html, css and 
+                        Javascript.
+                       </P>
+
+                        <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C#</span><br>Backend Development</li>
+                                <li><span>Angular</span><br>Frontend Development</li>
+                                <li><span>Microsoft SQLServer</span><br>For Databases</li>
+                                <li><span>Git</span><br>For Source Code</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020 - 2021</span><br>Internship at Codebase Technology Ltd.</li>
+                                <li><span>2021 - 2022 </span><br>The Bulb Africa, worked as a backend engineer.</li>
+                                <li><span>2022 - Present</span><br>Currently work as a fullstack developer at Baham Ideas Ltd.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2008</span><br>MSc at Enugu State University of Sc. And Technology.</li>
+                                <li><span>2012</span><br>NYSC Discharge Certificate.</li>
+                                <li><span>2020</span><br>Software Engineering Certificate at Codebase Technology Institute.</li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-------services------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+              <i class="fas fa-code"></i>
+              <h2>Backend Development</h2>
+              <p>I ensure the website performs properly, focusing on databases, back end-logic,
+                 application programming interface(APIs),architecture and servers. Using codes that
+                 helps browsers communicate with databases to store, understand and delete data.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+
+            <div>
+              <i class="fas fa-code"></i>
+              <h2>Frontend Development</h2>
+              <p>Front End Developer with passion of building beautiful and accessible web interfaces across various 
+                  devices and screen sizes. Expert in JavaScript, Angular, HTML, CSS and frameworks.
+                  I help or I'm responsible for implementing visual elements that users see and interact
+                  with in a web application.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+
+            <div>
+              <i class="fa fa-database" aria-hidden="true"></i>
+              <h2>Microsoft SQLServer</h2>
+              <p>Store and retrieve data as requested by other Software applications on the same computer
+                  or a remote computer using the client-server model. Datas are processed through APIs to access 
+                  SQLServer provided by Microsoft over the internet as a web service.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa fa-github" aria-hidden="true"></i>
+              <h2>Git</h2>
+              <p>DevOps tool used for source code management. It is a free and open-source version control
+                  system used to handle small and large projects efficiently. It is used to tracking changes in 
+                  the source code, enabling multiple developers to work on non-linear development.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------portfolio------->
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Works</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/IMG_0031.JPG">
+            <div class="layer">
+                <h3>Settlementbank App</h3>
+                <p>Built for financial transaction...</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/Dice.JPG">
+            <div class="layer">
+                <h3>Settlementbank App</h3>
+                <p>Built for financial transaction...</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/IMG_0126.JPG">
+            <div class="layer">
+                <h3>Settlementbank App</h3>
+                <p>Built for financial transaction...</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+
+<!-------contact-------->
+
+<div id="contact">
+    <div class="container">
+       <div class="row">
+           <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fas fa-paper-plane"></i>e-Mail: ugpronyech@gmail.com</p>
+              <P><i class="fas fa-phone-square-alt"></i>Phone: +2348030908386</P>
+              <div class="social-icons">
+                  <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+              </div>
+              <a href="images/Ugochukwu_Onyeche_CV.doc" download class="btn btn2">Download Cv</a>
+           </div>
+           <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter e-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Enter a message"></textarea>
+                    <button type="submit" class="btn btn2">Enter</button>
+                </form>
+           </div>
+       </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Gzzle 2023.</p>
+    </div>
+</div>
+
+      <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname){
+              for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+              }
+              
+              for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+              }
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+          }
+      </script>
+
+      <script>
+          var sidemenu = document.getElementById("sidemenu");
+          function openmenu(){
+              sidemenu.style.right = "0";
+          }
+
+          var sidemenu = document.getElementById("sidemenu");
+          function closemenu(){
+              sidemenu.style.right = "-200px";
+          }
+      </script>
+    </body>
+    </html>
